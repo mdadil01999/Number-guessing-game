@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Number</title>
+
+  <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+
+  <div class="game-box">
+
+    <h1 class="title">Guess The Number</h1>
+
+    <p class="info">
+      Guess a number between 1 and 100
+    </p>
+
+    <input
+      type="number"
+      id="guessInput"
+      class="guess-input"
+      placeholder="Enter your guess"
+    >
+
+    <button class="btn" id="checkBtn">
+      Submit Guess
+    </button>
+
+    <div class="message" id="message"></div>
+
+    <!-- Stats -->
+
+    <div class="stats">
+
+      <div class="card">
+        <div class="card-title">
+          Attempts Used
+        </div>
+
+        <div class="card-value" id="attempts">
+          0
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          Attempts Left
+        </div>
+
+        <div class="card-value" id="left">
+          9
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Closest Numbers -->
+
+    <div class="stats second-row">
+
+      <div class="card">
+        <div class="card-title">
+          Closest Lower
+        </div>
+
+        <div class="card-value" id="lowerGuess">
+          -
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          Closest Higher
+        </div>
+
+        <div class="card-value" id="higherGuess">
+          -
+        </div>
+      </div>
+
+    </div>
+
+    <button class="restart-btn" id="restartBtn">
+      Play Again
+    </button>
+
+  </div>
+
+  <script src="practice.js"></script>
+
+</body>
+</html>
