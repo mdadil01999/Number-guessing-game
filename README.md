@@ -43,7 +43,7 @@ High score system
 Mobile optimization
 Leaderboard support
 screenshots
-<img width="572" height="685" alt="Screenshot 2026-05-23 151231" src="https://github.com/user-attachments/assets/d0486810-1d38-492d-9b3e-faccc5b88028" />
+<img width="200" height="250" alt="Screenshot 2026-05-23 151231" src="https://github.com/user-attachments/assets/d0486810-1d38-492d-9b3e-faccc5b88028" />
 
 
 
